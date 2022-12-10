@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+header{
+   background-color: black;
+    height: 70px;
+    background-size: cover;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 8px;
+    top: 0px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    background-color: rgb(244, 243, 241);
+    color: black;
+    padding: 5px 20px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 7px;
+    transition: 0.2s ease;
+}
+ul li a:hover{
+    background-color: rgb(101, 98, 89);
+     border:none;
+}
+
+.logo img{
+    height: 50px;
+    width: 100px;
+}
+.form {
+   background: none;
+   margin-top: 0px;
+   align-items: center;
+   justify-content: center;
+    display: inline blocks;
+    padding: 35px;
+    width: 30%;
+   
+  }
+  /*span{
+    float: right;
+    justify-content: center;
+  }*/
+  #home{
+   display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 90px;
+   /* float: left;*/
+   justify-content: center;
+   align-items: center;
+  }
+  #home::before{
+    content: "";
+    position: absolute;
+   background: url(shopping2.webp)no-repeat center center/cover;
+    height: 342px;
+    top: 8px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+  }
+  .image{
+    height: 60px;
+    width: 50px;
+    
+  }
+  #home h1{
+    margin-top: 15px;
+    color:  rgb(23, 87, 177);
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: 2px 1px  rgb(31, 79, 91);
+    font-family: 'Bree Serif',serif;
+  }
+  #home p{
+   margin-top:  15px;
+   font-size: 1rem;
+   font-family: 'Bree Serif',serif;
+    color: rgb(17, 62, 62);
+  }
+ #home .para{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(16, 65, 98);
+    font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
+    margin-top: 20px;
+
+  }
+ #home .para {
+    animation: color-change 1s infinite;
+   /* text-shadow: 2px 1px rgb(17, 60, 82);*/
+   font-weight: bold;
+   font-style: italic;
+   font-size: 1.5rem;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+  }
+ .heading{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .heading span{
+    font-style: italic;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb rgb(29, 54, 83);
+    font-weight: 600;
+    color: black;
+  }
+  .heading h2{
+    font-size: 1rem;
+  }
+ /* .product-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto) );
+    grid-gap: 1.5rem;
+    align-items: center;
+    padding: 40px;
+    margin: 50px;
+  }
+  .box{
+    position: relative;
+    margin-top: 5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background: grey;
+    padding: 20px;
+    border-radius: 0.5rem;
+  }
+  .box-img{
+    width: 50%;
+    height: 50%;
+  }*/
+  h1 {
+    text-align: center;
+ }
+ /*.container{
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+ }*/
+ #services{
+    margin: 34px;
+    display: flex;
+   }
+ .outer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding:40px;
+  margin-top:90px;
+  margin-left:150px;
+  
+ }
+ .inner-grid {
+    flex: 25%;
+    max-width: 25%;
+    padding:20px;
+ }
+ .inner-grid img {
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+ }
